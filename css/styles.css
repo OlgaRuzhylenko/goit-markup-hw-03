@@ -168,7 +168,7 @@ letter-spacing: 0.04em;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 120px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
    }
 .features-list {
     display: flex;
@@ -199,7 +199,7 @@ letter-spacing: 0.02em;
         /* margin-right: 156px;
     margin-left: 156px; */
     padding-bottom: 120px;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 .title-doing {
     color:  var(--secondary-black-color);
@@ -209,8 +209,13 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
    }
 .list-doing {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
 }
 .item-doing {
 }
@@ -231,15 +236,20 @@ text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .list-team {
-
+display: flex;
+align-items: center;
+gap: 24px;
    }
 .item-team {
     background-color: #FFFFFF;
 }
 .img-team {
+    margin-bottom: 32px;
 }
+
 .name-team {
     color:  var(--secondary-black-color);
     font-weight: 500;
@@ -247,12 +257,14 @@ text-transform: capitalize;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .position-team {
      font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
+margin-bottom: 32px;
 }
 
 /* Секція кнопок class portfolio */
