@@ -39,10 +39,16 @@ ol, ul {
 
 /* Header class */
 .header {
-    
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header-nav {
-    
+    display: flex;
+    align-items: center;    
 }
 .header-logo {
     color: var(--primary-accent-color);
@@ -52,6 +58,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .header-logo-text {
     color: var(--secondary-black-color)
@@ -61,6 +68,9 @@ text-transform: uppercase;
    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+display: flex;
+align-items: center;
+gap: 40px;
 }
 .header-item {
    
@@ -88,6 +98,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .address-list {
+    display: flex;
+align-items: center;
+gap: 40px;
 }
 .address-item {
 }
@@ -111,12 +124,20 @@ letter-spacing: 0.02em;
     outline: 2px solid red;
     outline-offset: -2px;
 }
-
+section {
+/* padding-top: 60px;
+padding-bottom: 60px; */
+}
 
 /* Hero section class index */
 .hero {
     background-color: var(--secondary-black-color);
     color: var(--primary-white-color);
+    padding-top: 188px;
+    padding-right: 0;
+    padding-bottom: 188px;
+    padding-left: 0;
+    /* margin-bottom: 120px; */
 }
 .hero-title {   
 font-weight: 700;
@@ -141,7 +162,14 @@ letter-spacing: 0.04em;
 
 /* features section class index */
 .features {
-}
+    /* margin-right: 156px;
+    margin-left: 156px; */
+    padding-top: 120px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 120px;
+    background-color: lightgreen;
+   }
 .features-list {
 }
 .features-item {
@@ -162,6 +190,10 @@ letter-spacing: 0.02em;
 
 /* what we are doing section class index */
 .doing {
+        /* margin-right: 156px;
+    margin-left: 156px; */
+    padding-bottom: 120px;
+    background-color: lightpink;
 }
 .title-doing {
     color:  var(--secondary-black-color);
@@ -182,7 +214,9 @@ text-transform: capitalize;
 /* team section class index */
 .team {
     background-color: var(--secondary-bgc);
-}
+    /* padding-top: 120px; */
+    padding: 120px 0;
+    }
 .title-team {
     color: var(--secondary-black-color);
     font-weight: 700;
@@ -265,7 +299,9 @@ letter-spacing: 0.02em;
 /* footer class */
 .footer {
     background-color: var(--secondary-black-color);
-}
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
 .logo-footer {
         color: var(--primary-accent-color);
     font-family: var(--secondary-font);
