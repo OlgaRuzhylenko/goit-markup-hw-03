@@ -18,6 +18,15 @@ body {
     color: var(--primary-text-color);
     font-family: var(--primary-font);
 }
+/* Reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
 .link,
 .header-link,
 .header-link-active
@@ -30,6 +39,7 @@ body {
 
 /* Header class */
 .header {
+    
 }
 .header-nav {
     
@@ -90,6 +100,19 @@ letter-spacing: 0.02em;
 .address-contact:focus {
     color: var(--hover-color);
 }
+
+.container {
+    width: 1188px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+
 /* Hero section class index */
 .hero {
     background-color: var(--secondary-black-color);
