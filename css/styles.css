@@ -220,6 +220,7 @@ margin-bottom: 72px;
 .item-doing {
 }
 .img-doing {
+    display: block;
 }
 
 /* team section class index */
@@ -248,6 +249,7 @@ gap: 24px;
 }
 .img-team {
     margin-bottom: 32px;
+    display: block;
 }
 
 .name-team {
@@ -296,6 +298,7 @@ margin-bottom: 32px;
 .item-img {
 }
 .picture-img {
+    display: block;
 }
 .title-img {
     color:  var(--secondary-black-color);
