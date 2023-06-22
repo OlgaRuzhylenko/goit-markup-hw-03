@@ -315,10 +315,11 @@ margin-bottom: 32px;
 .list-filter {
     display: flex;
     gap: 24px;
-       justify-content: center;
+    justify-content: center;
+    margin-bottom: 72px;
      }
 .item-filter {
-  
+   
 }
 .button-filter {
     color: var(--primary-accent-color);
