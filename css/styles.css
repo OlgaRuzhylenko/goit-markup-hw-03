@@ -28,6 +28,8 @@ ol, ul {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .visually-hidden {
@@ -320,6 +322,7 @@ margin-bottom: 32px;
 .item-img {
 }
 .picture-img {
+ 
 }
 .title-img {
     color:  var(--secondary-black-color);
