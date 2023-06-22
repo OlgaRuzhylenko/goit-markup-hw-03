@@ -351,7 +351,7 @@ margin-bottom: 32px;
 .item-img {
 }
 .picture-img {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
  
 }
 .title-img {
@@ -370,7 +370,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-
+.desc {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 /* footer class */
 .footer {
