@@ -143,8 +143,8 @@ gap: 40px;
     padding-right: 15px;
     padding-left: 15px;
 
-    outline: 2px solid red;
-    outline-offset: -2px;
+    /* outline: 2px solid red;
+    outline-offset: -2px; */
 }
 section {
 /* padding-top: 60px;
@@ -277,11 +277,18 @@ gap: 24px;
    }
 .item-team {
     background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 .img-team {
     margin-bottom: 32px;
 }
-
+.subtitle {
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
 .name-team {
     color:  var(--secondary-black-color);
     font-weight: 500;
