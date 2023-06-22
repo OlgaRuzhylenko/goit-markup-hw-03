@@ -87,6 +87,7 @@ margin-right: 76px;
    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+
 display: flex;
 align-items: center;
 gap: 40px;
@@ -158,14 +159,16 @@ padding-bottom: 60px; */
     padding-right: 0;
     padding-bottom: 188px;
     padding-left: 0;
-    /* margin-bottom: 120px; */
-}
+    }
 .hero-title {   
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+
+max-width: 496px;
+margin: 0 auto;
 }
 .hero-button {
     background-color: var(--primary-accent-color);
@@ -175,6 +178,10 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+
+min-height: 56px;
+min-width: 169px;
+padding: 16px 32px 16px 32px;
 }
 .hero-button:hover, .hero-button:focus {
     background-color: var(--hover-color);
