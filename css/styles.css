@@ -373,6 +373,9 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+
+display: block;
+margin-bottom: 17.5px;
 }
 
 .logo-footer-text {
