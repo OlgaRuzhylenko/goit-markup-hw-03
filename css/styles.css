@@ -309,10 +309,15 @@ margin-bottom: 32px;
 
 /* Секція кнопок class portfolio */
 .filter {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .list-filter {
     display: flex;
- }
+    flex-wrap: wrap;
+    row-gap: 24px;
+    margin-bottom: 72 px;
+     }
 .item-filter {
   
 }
