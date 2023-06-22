@@ -180,10 +180,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 
 display: block;
-min-height: 56px;
+height: 56px;
 min-width: 169px;
 padding: 16px 32px 16px 32px;
 margin: 0 auto;
+border: none;
+border-radius: 4px;
 }
 .hero-button:hover, .hero-button:focus {
     background-color: var(--hover-color);
